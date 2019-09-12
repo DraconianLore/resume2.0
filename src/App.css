@@ -7,6 +7,7 @@
   font-size: calc(10px + 2vmin);
   color: bisque;
 }
+button:focus {outline:0;}
 
 .top-bar {
   height: 50px;
@@ -30,6 +31,9 @@
   font-weight: 700;
   font-size: 150%;
   background-image: -webkit-radial-gradient(circle, black, darkgreen);
+  -webkit-transition: 1.5s all;
+  -ms-transition: 1.5s all;
+  transition: 1.5s all;
 }
 
 .inactive-tab {
