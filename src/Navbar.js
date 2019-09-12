@@ -30,6 +30,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <div className="top-bar">
+        <span className='my-name'>Steven Wing</span>
         <button id='portfolio' className={this.state.portfolio} onClick={this.setActive}>
           Portfolio
         </button>

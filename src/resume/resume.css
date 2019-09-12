@@ -1,0 +1,47 @@
+.resume-page {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.section {
+  height: 23vw;
+  width: 43vw;
+  min-width: 350px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5vw;
+  text-align: left;
+  border-radius: 20px;
+  border-style: groove;
+  border-color: darkgreen;
+  margin: 1vw;
+  box-shadow: 8px 10px  rgba(0, 10, 0, 0.1);
+  padding: 1em;
+}
+
+
+.contact-box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section i {
+  width: 20px;
+  margin-right: 20px;
+  text-align: left;
+  padding: 0;
+}
+.section h3 {
+  margin: 10px;
+}
+.contact-cent {
+  text-align: center;
+  margin: 0;
+  text-shadow: 5px 5px 15px darkgreen;
+}
+
+.heading {
+  text-align: center;
+  margin: 0;
+}
