@@ -1,6 +1,7 @@
 * {
   scrollbar-width: none
 }
+
 .App {
   text-align: center;
   background-color: #253824;
@@ -12,6 +13,9 @@
 }
 button:focus {
   outline:0;
+}
+div:focus {
+  outline: 0;
 }
 
 .top-bar {

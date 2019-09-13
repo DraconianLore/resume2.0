@@ -1,0 +1,52 @@
+.container {
+  padding: 40px;
+}
+
+.slick-slide img {
+  margin: auto;
+  height: 70%;
+}
+ .slick-slide div {
+   height: 85vh;
+   overflow: hidden;
+   overflow-y: scroll;
+ }
+.slick-slide h1,h4 {
+  margin: 0;
+  color: peru;
+}
+.slick-slide h4 {
+  font-style: italic;
+}
+ .slick-slide p {
+   font-size: 80%;
+   margin-bottom: 0.2em;
+ }
+ .slick-slide ul {
+   text-align: left;
+   font-size: 70%;
+ }
+ .tech-stack {
+   text-align: left;
+ }
+ .ts-header {
+   color: peru;
+  border-bottom: 2px solid peru;
+ }
+.project-hr {
+  width: 70%;
+  border-color: darkgreen;
+  margin: 1em auto 1em auto;
+}
+.port-current {
+  max-width: 80%;
+  margin: auto;
+}
+.github-link {
+  float: left;
+  widows: 20px;
+  height: 20px;
+}
+.slick-slide a:visited, a:link {
+  color: goldenrod;
+}
