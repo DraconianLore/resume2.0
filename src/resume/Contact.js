@@ -30,8 +30,8 @@ return (
                     </h3>
                     <h3>
                         <i className="fab fa-linkedin"> </i>
-                        <a href="https://www.linkedin.com/in/steven-wing-77b220115/">
-                            Steven Wing
+                        <a href="https://www.linkedin.com/in/steven-wing">
+                            Steven-Wing
                         </a>
                     </h3>
                 </div>

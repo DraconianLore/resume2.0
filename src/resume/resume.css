@@ -15,7 +15,7 @@
   border-radius: 20px;
   border-style: groove;
   border-color: darkgreen;
-  margin: 0.2vw 0.2vw 1em 0.2vw;
+  margin: 1em 0.2vw 0 0.2vw;
   box-shadow: 8px 10px  rgba(0, 10, 0, 0.1);
   padding: 0.5em 1em 0.5em 1em;
 }
@@ -96,4 +96,16 @@
 .exp-hr {
   border-color: darkgreen;
   margin-bottom: 1.5em;
+}
+
+.printable {
+  font-weight: 700;
+  background-color: #253824;
+  padding: 0.3em;
+  border-radius: 5px;
+  font-size: 80%;
+  color: navajowhite;
+}
+.printable:hover {
+  color: peru;
 }
