@@ -4,7 +4,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5px + 2vmin);
   color: bisque;
 }
 button:focus {
@@ -12,12 +12,16 @@ button:focus {
 }
 
 .top-bar {
+  position: sticky;
+  top: 0;
+  left: 0;
   height: 50px;
   background-color: darkgreen;
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  z-index: 2;
 }
 .my-name {
   position: absolute;
