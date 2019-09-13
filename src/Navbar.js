@@ -31,7 +31,7 @@ export default class Navbar extends Component {
     return (
       <div className="top-bar">
         <span className='my-name'>Steven Wing</span>
-        {this.state.resume === 'active-tab' && <a className='printable' href='Steven Wing - Resume.pdf'><i className="fas fa-print"></i> Printable Résumé</a>}
+        {this.state.resume === 'active-tab' && <a className='printable' target="_blank" href='Steven Wing - Resume.pdf'><i className="fas fa-print"></i> Printable Résumé</a>}
         <button id='portfolio' className={this.state.portfolio} onClick={this.setActive}>
           Portfolio
         </button>
