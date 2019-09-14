@@ -45,7 +45,7 @@ export default class Current extends Component {
           <a className='port-link' href='https://github.com/publiclab/mapknitter' target='_blank' rel="noopener noreferrer">Mapknitter</a>
          </h4>
         <p>
-          <em>an open source image(aerial) to map joining application</em>
+          <em>An open source image(aerial) to map joining application</em>
         </p>
 
         
