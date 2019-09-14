@@ -12,7 +12,7 @@ export default class Jungle extends Component {
         <img src="images/jungle.png" alt='Jungle' />
         </a>
         <p>
-          I took this project (from a template of A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example) from being riddled with bugs and terrible design to where it is now, learning ruby on rails in the week I worked on this project.        </p>
+          I took this project from a template of A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example, riddled with bugs and terrible design to where it is now, learning ruby on rails in the week I worked on this project.        </p>
         <ul className='tech-stack'>
           <span className='ts-header'>
             Tech Stack:
