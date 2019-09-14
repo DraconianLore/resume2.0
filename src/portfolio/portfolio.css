@@ -1,19 +1,26 @@
 .container {
   padding: 40px;
+  background-color: #d2d8db;
 }
-
 .slick-slide img {
   margin: auto;
   height: 70%;
+  margin-bottom: 2.5vh;
+  max-width: 100%;
 }
  .slick-slide div {
    height: 85vh;
    overflow: hidden;
    overflow-y: scroll;
+   padding: 0 10% 0 10%;
  }
 .slick-slide h1,h4 {
   margin: 0;
-  color: peru;
+  color: #223843;
+}
+.slick-slide a h1,h4{
+  color: #60aed6;
+  text-shadow: 1px 1px 2px #223843;
 }
 .slick-slide h4 {
   font-style: italic;
@@ -21,6 +28,8 @@
  .slick-slide p {
    font-size: 80%;
    margin-bottom: 0.2em;
+   margin: auto;
+   text-align: left;
  }
  .slick-slide ul {
    text-align: left;
@@ -30,23 +39,28 @@
    text-align: left;
  }
  .ts-header {
-   color: peru;
-  border-bottom: 2px solid peru;
+   color: 223843;
+  border-bottom: 2px solid 223843;
+  font-weight: 700;
  }
 .project-hr {
   width: 70%;
-  border-color: darkgreen;
+  border-color: #60aed6;
   margin: 1em auto 1em auto;
 }
 .port-current {
-  max-width: 80%;
   margin: auto;
 }
-.github-link {
-  float: left;
-  widows: 20px;
-  height: 20px;
-}
+
 .slick-slide a:visited, a:link {
-  color: goldenrod;
+  color: #60aed6;
+}
+.slick-next, .slick-prev {
+  z-index: 2;
+}
+.slick-next:before, .slick-prev:before {
+  font-size: 10vh;
+}
+.slick-next {
+  right: 5vh;
 }

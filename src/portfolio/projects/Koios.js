@@ -5,11 +5,12 @@ export default class Koios extends Component {
   render() {
     return (
       <div>
-        <h1>Κοῖος<a href='https://github.com/DraconianLore/Koios'><img src='images/GitHub-Mark.png' alt='See on github' className='github-link' /></a></h1>
-        
+        <a href='https://github.com/DraconianLore/Koios' target='_blank' rel="noopener noreferrer">
+        <h1>Κοῖος</h1>
         <h4>An immersive mobile game</h4>
         <br />
         <img src="images/koios.png" alt='Koios' />
+        </a>
         <p>
           Κοῖος is an immersive game where users enlist as agents in a secret organization where they are encouraged to take a break from their daily lives and complete missions by interacting with the world around them. Initially users are presented with baisc 'training' missions to build up trust within the organisation, taking photos of objects, taking selfies with other people or places, and sending them off to be verified by other agents(including new agents) 
         </p>

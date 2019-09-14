@@ -5,10 +5,12 @@ export default class Chatty extends Component {
   render() {
     return (
       <div>
-        <h1>ChattyApp<a href='https://github.com/DraconianLore/chattyApp'><img src='images/GitHub-Mark.png' alt='See on github' className='github-link' /></a></h1>
+        <a href='https://github.com/DraconianLore/chattyApp' target='_blank' rel="noopener noreferrer">
+        <h1>ChattyApp</h1>
         <h4>An anonymous chatroom</h4>
         <br />
         <img src="images/chattyapp.png" alt='ChattyApp' />
+        </a>
         <p>
           A compact Anonymous chatroom.
         </p>

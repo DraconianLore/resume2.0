@@ -14,9 +14,10 @@
   text-align: left;
   border-radius: 20px;
   border-style: groove;
-  border-color: darkgreen;
+  border-color: #223843;
+  background-color: #d2d8db;
   margin: 1em 0.2vw 0 0.2vw;
-  box-shadow: 8px 10px  rgba(0, 10, 0, 0.1);
+  box-shadow: 5px 5px  rgba(34,56,67,0.6);
   padding: 0.5em 1em 0.5em 1em;
 }
 .wider {
@@ -30,7 +31,7 @@
 }
 ::-webkit-scrollbar {
   width: 0px; 
-  background: transparent;
+  background: #223843;
 }
 
 .contact-box {
@@ -51,19 +52,23 @@
 .contact-cent {
   text-align: center;
   margin: 0.2em 0 0 0;
-  text-shadow: 5px 5px 15px darkgreen;
-  color: burlywood;
+  text-shadow: 1px 1px 3px #60aed6;
+  color: #223843;
 }
 
 .heading {
   text-align: center;
   margin: 0;
-  color: burlywood;
+  color: #223843;
+  text-shadow: 1px 1px 3px #60aed6;
+
 }
 
 .sub-heading {
-  color: peru;
-  border-bottom: 2px solid darkgreen;
+  color: #223843;
+  border-bottom: 2px solid #60aed6;
+  text-shadow: 0.5px 0.5px 1px #60aed6;
+
   margin: 0.5em 5vw 0.3em 1.5vw;
   font-size: 110%;
 }
@@ -73,7 +78,7 @@
 
 }
 .skill-item {
-  background-color: maroon;
+  background-color: #60aed6;
   color: black;
   font-weight: 700;
   margin: 0.2em;
@@ -87,25 +92,30 @@
 }
 .sub-sub-heading {
   margin: 0.5em 3vw 0.3em 1vw;
-  color: peru;
+  color: #223843;
+  text-shadow: 0.2px 0.2px 1px #60aed6;
+
 }
 .res-description {
   margin: 0;
 }
 
 .exp-hr {
-  border-color: darkgreen;
+  border-color: #60aed6;
   margin-bottom: 1.5em;
 }
 
 .printable {
   font-weight: 700;
-  background-color: #253824;
+  background-color: #223843;
   padding: 0.3em;
   border-radius: 5px;
   font-size: 80%;
-  color: navajowhite;
+  color: #60aed6 !important;
+  -webkit-transition: 1s all;
+  -ms-transition: 1s all;
+  transition: 1s all;
 }
 .printable:hover {
-  color: peru;
+  background-color: black;
 }

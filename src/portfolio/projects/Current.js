@@ -10,7 +10,7 @@ export default class Current extends Component {
         <h1>Current Projects</h1>
         <hr className='project-hr' />
         <h4>
-          <a className='port-link' href='https://github.com/alumni-lab/quote-chat'>Quote-Chat</a>
+          <a className='port-link' href='https://github.com/alumni-lab/quote-chat' target='_blank' rel="noopener noreferrer">Quote-Chat</a>
          </h4>
         <p>
           <em>A Movie-quote Slack application</em>
@@ -20,7 +20,7 @@ export default class Current extends Component {
         </p>
         <hr className='project-hr' />
         <h4>
-        <a className='port-link' href='https://github.com/rsmsnot/Sports-Guide'>Sports Guide</a>
+        <a className='port-link' href='https://github.com/rsmsnot/Sports-Guide' target='_blank' rel="noopener noreferrer">Sports Guide</a>
          </h4>
         <p>
         <em>A Sports guide/fixture list application</em>
@@ -30,7 +30,7 @@ export default class Current extends Component {
         </p>
         <hr className='project-hr' />
         <h4>
-          <a className='port-link' href='https://github.com/DraconianLore/dmPlayerTracker'>DM Player Tracker</a>
+          <a className='port-link' href='https://github.com/DraconianLore/dmPlayerTracker' target='_blank' rel="noopener noreferrer">DM Player Tracker</a>
          </h4>
         <p>
         <em>A Dungeons & Dragons Player tracker for Dungeon Masters</em>
@@ -42,7 +42,7 @@ export default class Current extends Component {
         <h1>Open Source Contributions</h1>
         <hr className='project-hr' />
         <h4>
-          <a className='port-link' href='https://github.com/publiclab/mapknitter'>Mapknitter</a>
+          <a className='port-link' href='https://github.com/publiclab/mapknitter' target='_blank' rel="noopener noreferrer">Mapknitter</a>
          </h4>
         <p>
           <em>an open source image(aerial) to map joining application</em>

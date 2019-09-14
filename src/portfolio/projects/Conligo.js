@@ -5,10 +5,12 @@ export default class Conligo extends Component {
   render() {
     return (
       <div>
-        <h1>Conligo<a href='https://github.com/wonseobshin/conligo'><img src='images/GitHub-Mark.png' alt='See on github' className='github-link' /></a></h1>
+        <a href='https://github.com/wonseobshin/conligo' target='_blank' rel="noopener noreferrer">
+        <h1>Conligo</h1>
         <h4>A Smart Todo List</h4>
         <br />
         <img src="images/conligo.png" alt='Conligo' />
+        </a>
         <p>
         This "Smart Todo List" categorizes items the user inputs into one of four categories by using various API calls to find out what the item is. The majority of this project was pair programmed.
         </p>

@@ -4,8 +4,8 @@ export default class Navbar extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      portfolio: 'active-tab',
-      resume: 'inactive-tab'
+      portfolio: 'inactive-tab',
+      resume: 'active-tab'
     }
   }
   setActive = (e) => {
@@ -32,11 +32,11 @@ export default class Navbar extends Component {
       <div className="top-bar">
         <span className='my-name'>Steven Wing</span>
         {this.state.resume === 'active-tab' && <a className='printable' target="_blank" href='Steven Wing - Resume.pdf'><i className="fas fa-print"></i> Printable Résumé</a>}
-        <button id='portfolio' className={this.state.portfolio} onClick={this.setActive}>
-          Portfolio
-        </button>
         <button id='resume' className={this.state.resume} onClick={this.setActive}>
           Résumé
+        </button>
+        <button id='portfolio' className={this.state.portfolio} onClick={this.setActive}>
+          Portfolio
         </button>
       </div>
 

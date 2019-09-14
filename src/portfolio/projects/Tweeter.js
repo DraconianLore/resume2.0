@@ -5,10 +5,12 @@ export default class Tweeter extends Component {
   render() {
     return (
       <div>
-        <h1>Tweeter<a href='https://github.com/DraconianLore/tweeter'><img src='images/GitHub-Mark.png' alt='See on github' className='github-link' /></a></h1>
+        <a href='https://github.com/DraconianLore/tweeter' target='_blank' rel="noopener noreferrer">
+        <h1>Tweeter</h1>
         <h4>A Twitter Clone</h4>
         <br />
         <img src="images/tweeter.png" alt='Tweeter' />
+        </a>
         <p>
         A single-page AJAX-based Twitter clone
         </p>
