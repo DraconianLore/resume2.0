@@ -9,7 +9,8 @@ class App extends Component {
     super(props);
     this.state={
       activePage: 'resume',
-      showPortfolio: false
+      showPortfolio: false,
+      mobile: false
     }
   }
   showPortfolio = () => {
@@ -24,11 +25,17 @@ class App extends Component {
       showPortfolio: false
     })
   }
+  componentDidMount() {
+    console.log(window.innerWidth)
+   if (window.innerWidth < 769) {
+     this.setState({mobile: true})
+   } 
+  }
   render() {
 
     return (
       <div className="App">
-        <Navbar setActive={this.setActive} showPortfolio={this.state.showPortfolio} />
+        <Navbar isMobile={this.state.mobile} setActive={this.setActive} showPortfolio={this.state.showPortfolio} />
         {this.state.activePage === 'portfolio' && <Portfolio />}
         {this.state.activePage === 'resume' && <Resume showPortfolio={this.showPortfolio} />}
       </div>

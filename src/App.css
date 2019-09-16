@@ -1,9 +1,11 @@
 * {
   scrollbar-width: none
 }
+
 a {
   outline: 0;
 }
+
 .App {
   text-align: center;
   background-color: #a0c5d8;
@@ -13,9 +15,11 @@ a {
   font-size: calc(5px + 2vmin);
   color: #223843;
 }
+
 button:focus {
-  outline:0;
+  outline: 0;
 }
+
 div:focus {
   outline: 0;
 }
@@ -32,6 +36,7 @@ div:focus {
   justify-content: flex-end;
   z-index: 2;
 }
+
 .my-name {
   position: absolute;
   left: 1vw;
@@ -41,6 +46,7 @@ div:focus {
   letter-spacing: 0.25vw;
   color: #edf0f2;
 }
+
 .active-tab {
   width: 25%;
   height: 100%;
@@ -69,24 +75,66 @@ div:focus {
 }
 
 .inactive-tab:hover {
-text-shadow: 1px 1px 5px #a0c5d8;
+  text-shadow: 1px 1px 5px #a0c5d8;
 }
-a:link, a:visited  { 
-  color: #223843; 
+
+a:link, a:visited {
+  color: #223843;
   text-decoration: none;
 }
+
 @import './resume/resume.css';
 @import './portfolio/portfolio.css';
 /* 
 .section {
   height: initial;
 } */
-.top-bar + .resume-page {
+
+.top-bar+.resume-page {
   padding-bottom: 24px;
 }
+
 .res-description {
   margin: 0 12px;
 }
-.res-description + p {
+
+.res-description+p {
   margin: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile displays: */
+  * {
+    font-size: 1em;
+  }
+  .section {
+    width: 90%;
+    min-width: 300px;
+    /* max-height: 50vh; */
+    height: initial;
+    font-size: 1em;
+    margin: 0.5em 1em 0.5em 1em;
+    padding: 0.5em 1em 0.5em 1em;
+  }
+  .slick-slide img {
+    max-width: 90%;
+    max-height: 60vh;
+    width: auto;
+    height: auto;
+  }
+  .slick-slide ul, p {
+    font-size: 1em !important;
+  }
+  .slick-next:before, .slick-prev:before {
+    font-size: 5vh;
+  }
+  .slick-next {
+    right: 0;
+  }
+  .slick-slide h1 {
+    font-size: 3em;
+  }
+  .slick-slide h4 {
+    font-size: 1em;
+  }
 }
