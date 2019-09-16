@@ -5,7 +5,7 @@ export default class Koios extends Component {
   render() {
     return (
       <div>
-        <a href='https://github.com/DraconianLore/Koios' target='_blank' rel="noopener noreferrer">
+        <a href='https://github.com/DraconianLore/Koios' target='_blank' rel="noopener noreferrer" className='portfolio-github-link'>
         <h1>Κοῖος</h1>
         <h4>An immersive mobile game</h4>
         <br />

@@ -17,8 +17,8 @@ export default class Resume extends Component {
           <About />
         </div>
         <div className='resume-page'>
-          <Work />
-          <Education />
+          <Work showPortfolio={this.props.showPortfolio} />
+          <Education showPortfolio={this.props.showPortfolio} />
         </div>
       </div>
     )

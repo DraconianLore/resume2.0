@@ -5,7 +5,7 @@ export default class Jungle extends Component {
   render() {
     return (
       <div>
-        <a href='https://github.com/DraconianLore/jungle-rails' target='_blank' rel="noopener noreferrer">
+        <a href='https://github.com/DraconianLore/jungle-rails' target='_blank' rel="noopener noreferrer" className='portfolio-github-link'>
         <h1>Jungle</h1>
         <h4>An e-Commerce application</h4>
         <br />

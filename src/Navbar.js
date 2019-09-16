@@ -27,6 +27,14 @@ export default class Navbar extends Component {
       }
     }
   }
+  componentWillReceiveProps(newProps) {
+    if (newProps.showPortfolio) {
+      this.setState({
+        portfolio: 'active-tab',
+        resume: 'inactive-tab'
+      })
+    }
+  }
   render() {
     return (
       <div className="top-bar">

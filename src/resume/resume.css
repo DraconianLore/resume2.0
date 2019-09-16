@@ -119,3 +119,20 @@
 .printable:hover {
   background-color: black;
 }
+.mini-heading {
+  margin: 0.5em 0 0 -1em;
+  font-size: 90%
+}
+
+a li:hover {
+  color: #60aed6;
+}
+a li em {
+  font-size: 90%;
+}
+.portfolio-link {
+  margin: 0.5em 0 2vw 33%;
+}
+.portfolio-link a:hover {
+  color: #60aed6;
+}

@@ -8,20 +8,29 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state={
-      activePage: 'resume'
+      activePage: 'resume',
+      showPortfolio: false
     }
   }
-
+  showPortfolio = () => {
+    this.setState({
+      showPortfolio: true,
+      activePage: 'portfolio'
+    })
+  }
   setActive = (pageName) => {
-    this.setState({activePage: pageName})
+    this.setState({
+      activePage: pageName,
+      showPortfolio: false
+    })
   }
   render() {
 
     return (
       <div className="App">
-        <Navbar setActive={this.setActive} />
+        <Navbar setActive={this.setActive} showPortfolio={this.state.showPortfolio} />
         {this.state.activePage === 'portfolio' && <Portfolio />}
-        {this.state.activePage === 'resume' && <Resume />}
+        {this.state.activePage === 'resume' && <Resume showPortfolio={this.showPortfolio} />}
       </div>
     );
   }

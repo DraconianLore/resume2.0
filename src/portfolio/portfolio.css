@@ -64,3 +64,11 @@
 .slick-next {
   right: 5vh;
 }
+
+.portfolio-github-link h1:hover {
+  color: #223843;
+}
+h4 .port-link:hover {
+  color: #223843;
+
+}

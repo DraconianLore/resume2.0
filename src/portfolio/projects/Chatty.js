@@ -5,7 +5,7 @@ export default class Chatty extends Component {
   render() {
     return (
       <div>
-        <a href='https://github.com/DraconianLore/chattyApp' target='_blank' rel="noopener noreferrer">
+        <a href='https://github.com/DraconianLore/chattyApp' target='_blank' rel="noopener noreferrer" className='portfolio-github-link'>
         <h1>ChattyApp</h1>
         <h4>An anonymous chatroom</h4>
         <br />

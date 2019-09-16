@@ -77,3 +77,16 @@ a:link, a:visited  {
 }
 @import './resume/resume.css';
 @import './portfolio/portfolio.css';
+/* 
+.section {
+  height: initial;
+} */
+.top-bar + .resume-page {
+  padding-bottom: 24px;
+}
+.res-description {
+  margin: 0 12px;
+}
+.res-description + p {
+  margin: 12px;
+}

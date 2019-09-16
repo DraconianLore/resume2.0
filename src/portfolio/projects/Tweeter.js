@@ -5,7 +5,7 @@ export default class Tweeter extends Component {
   render() {
     return (
       <div>
-        <a href='https://github.com/DraconianLore/tweeter' target='_blank' rel="noopener noreferrer">
+        <a href='https://github.com/DraconianLore/tweeter' target='_blank' rel="noopener noreferrer" className='portfolio-github-link'>
         <h1>Tweeter</h1>
         <h4>A Twitter Clone</h4>
         <br />
