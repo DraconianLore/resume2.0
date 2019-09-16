@@ -6,6 +6,7 @@ import Chatty from './projects/Chatty';
 import Jungle from './projects/Jungle';
 import Tweeter from './projects/Tweeter';
 import Current from './projects/Current';
+import DonateIT from './projects/DonateIT';
 
 export default class Portfolio extends Component {
 
@@ -20,6 +21,7 @@ export default class Portfolio extends Component {
     return (
       <div className="container">
         <Slider {...settings}>
+          <DonateIT />
           <Koios />
           <Jungle />
           <Chatty />
