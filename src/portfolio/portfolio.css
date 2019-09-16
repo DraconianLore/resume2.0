@@ -72,3 +72,8 @@ h4 .port-link:hover {
   color: #223843;
 
 }
+.port-details {
+  background-color: #a0c5d8;
+  border-radius: 40px;
+  padding: 1em;
+}

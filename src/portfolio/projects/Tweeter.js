@@ -11,6 +11,8 @@ export default class Tweeter extends Component {
         <br />
         <img src="images/tweeter.png" alt='Tweeter' />
         </a>
+
+        <section className='port-details'>
         <p>
         A single-page AJAX-based Twitter clone
         </p>
@@ -28,6 +30,7 @@ export default class Tweeter extends Component {
             MongoDB
           </li>
         </ul>
+        </section>
       </div>
     )
   }

@@ -11,6 +11,8 @@ export default class Conligo extends Component {
         <br />
         <img src="images/conligo.png" alt='Conligo' />
         </a>
+
+        <section className='port-details'>
         <p>
         This "Smart Todo List" categorizes items the user inputs into one of four categories by using various API calls to find out what the item is. The majority of this project was pair programmed.
         </p>
@@ -31,6 +33,7 @@ export default class Conligo extends Component {
           PostgreSQL
           </li>
         </ul>
+        </section>
       </div>
     )
   }

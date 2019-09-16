@@ -11,6 +11,8 @@ export default class Koios extends Component {
         <br />
         <img src="images/koios.png" alt='Koios' />
         </a>
+
+        <section className='port-details'>
         <p>
           Κοῖος is an immersive game where users enlist as agents in a secret organization where they are encouraged to take a break from their daily lives and complete missions by interacting with the world around them. Initially users are presented with baisc 'training' missions to build up trust within the organisation, taking photos of objects, taking selfies with other people or places, and sending them off to be verified by other agents(including new agents) 
         </p>
@@ -52,6 +54,7 @@ export default class Koios extends Component {
             Heroku(hosting)
           </li>
         </ul>
+        </section>
       </div>
     )
   }

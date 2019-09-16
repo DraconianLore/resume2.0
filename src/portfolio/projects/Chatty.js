@@ -11,6 +11,8 @@ export default class Chatty extends Component {
         <br />
         <img src="images/chattyapp.png" alt='ChattyApp' />
         </a>
+
+        <section className='port-details'>
         <p>
           A compact Anonymous chatroom.
         </p>
@@ -59,6 +61,7 @@ export default class Chatty extends Component {
             Websockets
           </li>
         </ul>
+        </section>
       </div>
     )
   }
