@@ -27,7 +27,7 @@ export default class Navbar extends Component {
       }
     }
   }
-  componentWillReceiveProps(newProps) {
+  UNSAFE_componentWillReceiveProps(newProps) {
     if (newProps.showPortfolio) {
       this.setState({
         portfolio: 'active-tab',

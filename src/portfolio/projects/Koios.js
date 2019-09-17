@@ -14,7 +14,8 @@ export default class Koios extends Component {
 
         <section className='port-details'>
         <p>
-          Κοῖος is an immersive game where users enlist as agents in a secret organization where they are encouraged to take a break from their daily lives and complete missions by interacting with the world around them. Initially users are presented with baisc 'training' missions to build up trust within the organisation, taking photos of objects, taking selfies with other people or places, and sending them off to be verified by other agents(including new agents) 
+          Κοῖος is an immersive game where users enlist as agents in a secret organization where they are encouraged to take a break from their daily lives and complete missions by interacting with the world around them. </p>
+          <p>Initially users are presented with basic training missions to build up trust within the organisation, taking photos of objects, taking selfies with other people or places, and sending them off to be verified by other agents(including new agents) 
         </p>
         <ul>
         As the agents gain trust, they gain ranks in the organisation which leads to harder missions including:

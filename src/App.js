@@ -26,7 +26,6 @@ class App extends Component {
     })
   }
   componentDidMount() {
-    console.log(window.innerWidth)
    if (window.innerWidth < 769) {
      this.setState({mobile: true})
    } 

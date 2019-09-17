@@ -22,7 +22,7 @@
 }
 .wider {
   width: 45vw;
-  height: 35vw;
+  height: initial;
   overflow: hidden;
   overflow-y: scroll;
   scrollbar-width: none;
