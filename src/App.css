@@ -72,10 +72,6 @@ a:link, a:visited {
 
 @import './resume/resume.css';
 @import './portfolio/portfolio.css';
-/* 
-.section {
-  height: initial;
-} */
 
 .top-bar+.resume-page {
   padding-bottom: 24px;
