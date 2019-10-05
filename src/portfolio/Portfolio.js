@@ -7,6 +7,7 @@ import Jungle from './projects/Jungle';
 import Tweeter from './projects/Tweeter';
 import Current from './projects/Current';
 import DonateIT from './projects/DonateIT';
+import QuoteChat from './projects/QuoteChat';
 import DmPlayerTracker from './projects/DmPlayerTracker';
 
 export default class Portfolio extends Component {
@@ -24,6 +25,7 @@ export default class Portfolio extends Component {
       <div className='container' >
         <Slider {...settings}>
           <DmPlayerTracker />
+          <QuoteChat />
           <DonateIT />
           <Koios />
           <Jungle />

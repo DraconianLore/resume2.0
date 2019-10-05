@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-export default class Chatty extends Component {
+export default class DmPlayerTracker extends Component {
 
   render() {
     return (
       <div>
-        <a href='https://github.com/DraconianLore/chattyApp' target='_blank' rel="noopener noreferrer" className='portfolio-github-link'>
+        <a href='https://github.com/DraconianLore/dmPlayerTracker' target='_blank' rel="noopener noreferrer" className='portfolio-github-link'>
         <h1>DM Player Tracker</h1>
         <h4>A Dungeons & Dragons tool for DM's</h4>
         <br />
