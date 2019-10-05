@@ -19,7 +19,7 @@ export default class QuoteChat extends Component {
         <ul>
         Once installed in a workspace, users can:
             <li>
-            type /quote -h for instructions
+            type /quote -help for instructions
             </li>
             <li>
             type /quote [some quote here] to find and display three quotes matching the input
