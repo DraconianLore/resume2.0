@@ -47,21 +47,7 @@ div:focus {
   color: #edf0f2;
 }
 
-.active-tab {
-  width: 25%;
-  height: 100%;
-  border-style: none;
-  background-color: black;
-  color: #60aed6;
-  font-weight: 700;
-  font-size: 120%;
-  background-image: -webkit-radial-gradient(circle, black, #223843);
-  -webkit-transition: 1s all;
-  -ms-transition: 1s all;
-  transition: 1s all;
-}
-
-.inactive-tab {
+.navButtons {
   width: 25%;
   height: 100%;
   border-style: none;
@@ -74,8 +60,9 @@ div:focus {
   transition: 1s all;
 }
 
-.inactive-tab:hover {
+.navButtons:hover {
   text-shadow: 1px 1px 5px #a0c5d8;
+  cursor: pointer;
 }
 
 a:link, a:visited {

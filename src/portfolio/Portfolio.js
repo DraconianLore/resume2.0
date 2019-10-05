@@ -11,6 +11,7 @@ import DmPlayerTracker from './projects/DmPlayerTracker';
 
 export default class Portfolio extends Component {
 
+
   render() {
     var settings = {
       dots: true,
@@ -20,7 +21,7 @@ export default class Portfolio extends Component {
       slidesToScroll: 1
     };
     return (
-      <div className="container">
+      <div className='container' >
         <Slider {...settings}>
           <DmPlayerTracker />
           <DonateIT />

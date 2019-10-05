@@ -3,40 +3,44 @@ import './App.css';
 import Navbar from './Navbar';
 import Resume from './resume/Resume';
 import Portfolio from './portfolio/Portfolio';
+import scrollToComponent from 'react-scroll-to-component';
 
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state={
-      activePage: 'resume',
-      showPortfolio: false,
+    this.state = {
       mobile: false
     }
   }
-  showPortfolio = () => {
-    this.setState({
-      showPortfolio: true,
-      activePage: 'portfolio'
+  scrollToContent = (content) => {
+    if (content === 'Resume') {
+      scrollToComponent(this.resume, {
+        offset: -50,
+        align: 'top',
+        duration: 1000
+    });
+    } else {
+      scrollToComponent(this.portfolio, {
+        offset: -50,
+        align: 'top',
+        duration: 1000
     })
+    }
   }
-  setActive = (pageName) => {
-    this.setState({
-      activePage: pageName,
-      showPortfolio: false
-    })
-  }
+
   componentDidMount() {
-   if (window.innerWidth < 769) {
-     this.setState({mobile: true})
-   } 
+    if (window.innerWidth < 769) {
+      this.setState({ mobile: true })
+    }
   }
+
   render() {
 
     return (
       <div className="App">
-        <Navbar isMobile={this.state.mobile} setActive={this.setActive} showPortfolio={this.state.showPortfolio} />
-        {this.state.activePage === 'portfolio' && <Portfolio />}
-        {this.state.activePage === 'resume' && <Resume showPortfolio={this.showPortfolio} />}
+        <Navbar isMobile={this.state.mobile} scrollTo={this.scrollToContent} />
+        <Resume showPortfolio={this.showPortfolio} ref={(section) => { this.resume = section; }} />
+        <Portfolio ref={(section) => { this.portfolio = section; }} scrollTo={this.scrollToContent} />
       </div>
     );
   }
