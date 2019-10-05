@@ -39,8 +39,8 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar isMobile={this.state.mobile} scrollTo={this.scrollToContent} />
-        <Resume showPortfolio={this.showPortfolio} ref={(section) => { this.resume = section; }} />
-        <Portfolio ref={(section) => { this.portfolio = section; }} scrollTo={this.scrollToContent} />
+        <Resume showPortfolio={this.showPortfolio} ref={(section) => { this.resume = section; }} scrollTo={this.scrollToContent} />
+        <Portfolio ref={(section) => { this.portfolio = section; }} />
       </div>
     );
   }

@@ -6,7 +6,9 @@ import Work from './Work';
 import Education from './Education';
 
 export default class Resume extends Component {
-
+  scrollToPortfolio = () => {
+    this.props.scrollTo('Porftolio')
+  }
   render() {
     return (
       <div className='resume-page'>
@@ -17,8 +19,8 @@ export default class Resume extends Component {
           <About />
         </div>
         <div className='resume-page'>
-          <Work showPortfolio={this.props.showPortfolio} />
-          <Education showPortfolio={this.props.showPortfolio} />
+          <Work showPortfolio={this.scrollToPortfolio} />
+          <Education showPortfolio={this.scrollToPortfolio} />
         </div>
       </div>
     )
