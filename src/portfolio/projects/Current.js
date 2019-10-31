@@ -27,7 +27,7 @@ export default class Current extends Component {
         <em>A Dungeons & Dragons Player tracker for Dungeon Masters</em>
         </p>
         <p className='port-current'>
-          My personal project, where as an avid D&D player, and semi-regular Dungeon Master, I decided it would be nice to have an app to track player information for my players. Using React and Rails with a PostgreSQL database I am actively working on this project.
+          My personal project, where as an avid D&D player, and regular Dungeon Master, I decided it would be nice to have an app to track player information for my players. Using React and Rails with a PostgreSQL database I am actively working on this project.
         </p>
         <hr className='project-hr' />
         <h1>Open Source Contributions</h1>
