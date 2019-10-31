@@ -8,16 +8,7 @@ export default class Current extends Component {
     return (
       <div>
         <h1>Current Projects</h1>
-        <hr className='project-hr' />
-        <h4>
-          <a className='port-link' href='https://github.com/alumni-lab/quote-chat' target='_blank' rel="noopener noreferrer">Quote-Chat</a>
-         </h4>
-        <p>
-          <em>A Movie-quote Slack application</em>
-        </p>
-        <p className='port-current'>
-          Working with several Lighthouse Alumni on this project, involving a script scraper(python) a PostgreSQL database hosted on Heroku along with the main Slack app(Nodejs)
-        </p>
+        
         <hr className='project-hr' />
         <h4>
         <a className='port-link' href='https://github.com/rsmsnot/Sports-Guide' target='_blank' rel="noopener noreferrer">Sports Guide</a>
