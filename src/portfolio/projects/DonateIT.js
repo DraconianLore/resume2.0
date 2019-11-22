@@ -6,7 +6,7 @@ export default class DonateIT extends Component {
     return (
       <div>
         <a href='https://github.com/ChesterCorin/vanhacks-2019-frontend' target='_blank' rel="noopener noreferrer" className='portfolio-github-link'>
-          <h1>Dontae IT</h1>
+          <h1>Donate IT</h1>
           <h4>An NPO - Dev matching platform</h4>
           <br />
           <img src='images/donateIT.gif' alt='DonateIT' />
