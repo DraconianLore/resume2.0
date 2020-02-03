@@ -8,10 +8,10 @@ export default class Work extends Component {
         <h1 className='heading'>Relevant Experience</h1>
         <hr className='exp-hr' />
 
-        <h4 className='sub-heading'>Software Engineer<span className="right-side">Oct 2019 - Current</span></h4>
+        <h4 className='sub-heading'>Software Engineer<span className="right-side">Oct 2019 - Jan 2019</span></h4>
         <h4 className='sub-sub-heading'>Swerve Labs <span className="right-side">Vancouver, Canada</span></h4>
         <ul className='res-description'>
-          <li>Contract development work using primarily javascript and React</li>  
+          <li>Contract development work using NodeJs and React to build a mobile PWA social media application</li>  
         </ul>
         <p><em></em></p>
       

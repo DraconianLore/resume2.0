@@ -11,13 +11,13 @@ export default class Current extends Component {
         
         <hr className='project-hr' />
         <h4>
-          <a className='port-link' href='https://draconianlore.github.io/dmPlayerTracker' target='_blank' rel="noopener noreferrer">DM Player Tracker</a>
+          <a className='port-link' href='https://github.com/alumni-lab/DMPT-PlayerClient' target='_blank' rel="noopener noreferrer">DMPT - Player Client</a>
          </h4>
         <p>
-        <em>A Dungeons & Dragons Player tracker for Dungeon Masters</em>
+        <em>A player client for the Dungeon Master Player Tracker</em>
         </p>
         <p className='port-current'>
-          My personal project, where as an avid D&D player, and regular Dungeon Master, I decided it would be nice to have an app to track player information for my players. Using React and Rails with a PostgreSQL database I am actively working on this project.
+          Having built the <a href='https://draconianlore.github.io/dmPlayerTracker'>Dungeon Master Player Tracker</a> and having it working to a satisfactory point, I am now leading a small team in designing and building a client for players in games where the Dungeon Master is using the DMPT, allowing the players, using the DMPT API as well as websockets for live updates, players can keep track of their stats and inventory, send private messages to the DM, and make notes, without the need for a pen and paper character sheet.
         </p>
         <hr className='project-hr' />
         <h4>
