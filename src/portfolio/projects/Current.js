@@ -17,7 +17,7 @@ export default class Current extends Component {
         <em>A player client for the Dungeon Master Player Tracker</em>
         </p>
         <p className='port-current'>
-          Having built the <a href='https://draconianlore.github.io/dmPlayerTracker'>Dungeon Master Player Tracker</a> and having it working to a satisfactory point, I am now leading a small team in designing and building a client for players in games where the Dungeon Master is using the DMPT, allowing the players, using the DMPT API as well as websockets for live updates, players can keep track of their stats and inventory, send private messages to the DM, and make notes, without the need for a pen and paper character sheet.
+          Having built the <a href='https://draconianlore.github.io/dmPlayerTracker'>Dungeon Master Player Tracker</a> and having it working to a satisfactory point, I am now leading a small team in designing and building a client for players in games where the Dungeon Master is using the DMPT. Using the DMPT API as well as websockets for live updates, players can keep track of their stats and inventory, send private messages to the DM, and make notes, without the need for a pen and paper character sheet.
         </p>
         <hr className='project-hr' />
         <h4>
