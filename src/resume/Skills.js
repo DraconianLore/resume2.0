@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 const languageList = ['JavaScript', 'HTML', 'CSS', 'SASS', 'Node.js', 'jQuery', 'VB', 'React', 'Ruby', 'Rails', 'React Native', 'Unity', 'C#', 'Bootstrap'];
-const systemList = ['Git', 'GitHub', 'Bitbucket', 'MongoDB', 'MySql', 'PostgreSQL', 'Expo', 'Heroku', 'Trello'];
+const systemList = ['Git', 'GitHub', 'Bitbucket', 'MongoDB', 'MySql', 'PostgreSQL', 'Expo', 'Heroku', 'Trello', 'Jupyter', 'Binderhub'];
 const otherList = ['Adaptable', 'Flexible', 'Problem Solving', 'Leadership', 'Teamwork']
 
 export default class Skills extends Component {

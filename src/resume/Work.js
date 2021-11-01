@@ -8,13 +8,25 @@ export default class Work extends Component {
         <h1 className='heading'>Relevant Experience</h1>
         <hr className='exp-hr' />
 
-        <h4 className='sub-heading'>Software Engineer<span className="right-side">Oct 2019 - Jan 2019</span></h4>
+        <h4 className='sub-heading'>Software Engineer<span className="right-side">Feb 2020 - June 2021</span></h4>
+        <h4 className='sub-sub-heading'>Lighthouse Labs<span className="right-side">Vancouver, Canada</span></h4>
+        <ul className='res-description'>
+          <li>Working with Ruby-on-Rails and Javascript primarily, managing the public website <a href='https://www.lighthouselabs.ca'><strong>lighthouselabs.ca</strong></a> as well as the staff portal and CRM</li>
+          <li>Worked on Compass and Rudder, the schools LMS</li>
+          <li>Created and managed the <a href='https://data-challenge.lighthouselabs.ca/start'><strong>21 Day Data Challenge</strong></a> for Feb 2021.</li>
+          <li>Onboarding and mentoring new staff remotely</li>
+        </ul>
+        <p><em>I started at Lighthouse Labs right before Covid-19 hit, while onboarding I helped transition to full 
+          online classes on the Compass LMS. Once the move to online classes was settled, I moved over to the website and CRM 
+          and took ownership of both applications. I designed and implemented new features, updated and replaced outdated pages, them 
+          while providing support to staff, taking in feedback and implementing new workflows on the CRM to make WFH life easier for the company.</em></p>
+
+        <h4 className='sub-heading'>Software Engineer<span className="right-side">Oct 2019 - Jan 2020</span></h4>
         <h4 className='sub-sub-heading'>Swerve Labs <span className="right-side">Vancouver, Canada</span></h4>
         <ul className='res-description'>
           <li>Contract development work using NodeJs and React to build a mobile PWA social media application</li>  
         </ul>
-        <p><em></em></p>
-      
+        
         <h4 className='sub-heading'>Completed Projects</h4>
         <ul className='res-description' onClick={this.props.showPortfolio}>
           {/* eslint-disable-next-line */}
