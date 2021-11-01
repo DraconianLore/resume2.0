@@ -124,7 +124,7 @@
   font-size: 90%
 }
 
-a li:hover {
+a li:hover, a strong:hover {
   color: #60aed6;
 }
 a li em {
