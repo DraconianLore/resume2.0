@@ -18,7 +18,7 @@ export default class Work extends Component {
         </ul>
         <p><em>I started at Lighthouse Labs right before Covid-19 hit, while onboarding I helped transition to full 
           online classes on the Compass LMS. Once the move to online classes was settled, I moved over to the website and CRM 
-          and took ownership of both applications. I designed and implemented new features, updated and replaced outdated pages, them 
+          and took ownership of both applications. I designed and implemented new features, updated and replaced outdated pages,
           while providing support to staff, taking in feedback and implementing new workflows on the CRM to make WFH life easier for the company.</em></p>
 
         <h4 className='sub-heading'>Software Engineer<span className="right-side">Oct 2019 - Jan 2020</span></h4>
