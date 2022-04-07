@@ -21,6 +21,17 @@ export default class Current extends Component {
         </p>
 
         <hr className='project-hr' />
+        <h4>
+          <a className='port-link' href='https://runescribefamiliar.herokuapp.com/' target='_blank' rel="noopener noreferrer">Rune Scribe Familiar</a>
+         </h4>
+        <p>
+        <em>A tool for Dungeons & Dragons</em>
+        </p>
+        <p className='port-current'>
+          A tol for players to help keep track of the details of the Rune Scribe class I created for Dungeons & Dragons 5th edition, including a new complex magic system.
+        </p>
+
+        <hr className='project-hr' />
         <h1>Open Source Contributions</h1>
         <hr className='project-hr' />
         <h4>

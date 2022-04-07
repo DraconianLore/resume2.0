@@ -9,23 +9,13 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      mobile: false
+      mobile: false,
+      portfolio: false
     }
   }
-  scrollToContent = (content) => {
-    if (content === 'Resume') {
-      scrollToComponent(this.resume, {
-        offset: -50,
-        align: 'top',
-        duration: 1000
-    });
-    } else {
-      scrollToComponent(this.portfolio, {
-        offset: -50,
-        align: 'top',
-        duration: 1000
-    })
-    }
+
+  switchView = () => {
+    this.setState({portfolio: !this.state.portfolio})
   }
 
   componentDidMount() {
@@ -38,9 +28,8 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Navbar isMobile={this.state.mobile} scrollTo={this.scrollToContent} />
-        <Resume showPortfolio={this.showPortfolio} ref={(section) => { this.resume = section; }} scrollTo={this.scrollToContent} />
-        <Portfolio ref={(section) => { this.portfolio = section; }} />
+        <Navbar isMobile={this.state.mobile} switchView={this.switchView} />
+        {this.state.portfolio ?  <Portfolio /> : <Resume switchView={this.switchView} />}
       </div>
     );
   }

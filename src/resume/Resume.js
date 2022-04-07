@@ -19,8 +19,8 @@ export default class Resume extends Component {
           <About />
         </div>
         <div className='resume-page'>
-          <Work showPortfolio={this.scrollToPortfolio} />
-          <Education showPortfolio={this.scrollToPortfolio} />
+          <Work showPortfolio={this.props.switchView} />
+          <Education showPortfolio={this.props.switchView} />
         </div>
       </div>
     )
