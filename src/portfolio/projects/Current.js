@@ -22,7 +22,7 @@ export default class Current extends Component {
 
         <hr className='project-hr' />
         <h4>
-          <a className='port-link' href='https://runescribefamiliar.herokuapp.com/' target='_blank' rel="noopener noreferrer">Rune Scribe Familiar</a>
+          <a className='port-link' href='https://github.com/DraconianLore/rune_scribe' target='_blank' rel="noopener noreferrer">Rune Scribe Familiar</a>
          </h4>
         <p>
         <em>A tool for Dungeons & Dragons</em>
