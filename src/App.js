@@ -3,7 +3,6 @@ import './App.css';
 import Navbar from './Navbar';
 import Resume from './resume/Resume';
 import Portfolio from './portfolio/Portfolio';
-import scrollToComponent from 'react-scroll-to-component';
 
 class App extends Component {
   constructor(props) {

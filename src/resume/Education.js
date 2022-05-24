@@ -27,7 +27,7 @@ export default class Education extends Component {
         </ul>
         <p>
           <em>
-            This course allowed me to change my programming hobby into a qualification. For 12 hours a day, 6 days a week I was fully immersed in absorbing knowledge through hands on exercises and project work.
+            This course allowed me to change my programming hobby into a career. For 12 hours a day, 6 days a week I was fully immersed in absorbing knowledge through hands on exercises and project work.
             </em>
         </p>
       </div>

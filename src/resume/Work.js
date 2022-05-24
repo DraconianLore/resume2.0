@@ -54,7 +54,7 @@ export default class Work extends Component {
           <li>Coordinated a team of six drivers delivering cold foods to customers across the NSW and ACT states.</li>
           <li>Trained new drivers</li>
           <li>Managed inventory and coordinated with the production team.</li>
-          <li>Dealt directly with existing and potential clients and resolving customer complaints.</li>
+          <li>Dealt directly with existing and potential clients and resolved customer complaints.</li>
         </ul>
         <p><em>During my time at Big Mouth, I refined my time management skills, and learnt a lot from stepping back to see the big picture to coordinate multiple people efficiently.</em></p>
       </div>
