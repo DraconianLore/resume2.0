@@ -37,7 +37,7 @@
 .contact-box {
   display: flex;
   justify-content: space-around;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .section i {
@@ -90,6 +90,7 @@
   float: right;
   font-size: 70%;
 }
+
 .sub-sub-heading {
   margin: 0.5em 3vw 0.3em 1vw;
   color: #223843;

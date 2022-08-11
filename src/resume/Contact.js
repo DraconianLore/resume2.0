@@ -8,6 +8,7 @@ return (
   <div className="section">
             <h1 className="contact-cent">Steven Wing</h1>
             <h2 className="contact-cent"><em>Full Stack Web Developer</em></h2>
+
             <div className="contact-box">
                 <div>
                     <h3>
@@ -33,6 +34,10 @@ return (
                         <a href="https://www.linkedin.com/in/steven-wing">
                             Steven-Wing
                         </a>
+                    </h3>
+                    <h3>
+                        <i className="fas fa-check"> </i>
+                        United States Work Authorization
                     </h3>
                 </div>
             </div>
