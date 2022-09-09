@@ -2,7 +2,7 @@
   "name": "steven_wing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://draconianlore.github.io/resume2.0",
+  "homepage": "https://stevenwing.dev/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
@@ -11,6 +11,17 @@
     "react-scroll-to-component": "^1.0.2",
     "react-slick": "^0.25.2",
     "slick-carousel": "^1.8.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
