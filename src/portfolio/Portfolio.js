@@ -19,7 +19,8 @@ export default class Portfolio extends Component {
       infinite: true,
       speed: 1000,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      initialSlide: this.props.portfolioItem
     };
     return (
       <div className='container' >

@@ -4,11 +4,10 @@ import About from './About';
 import Skills from './Skills';
 import Work from './Work';
 import Education from './Education';
+import Projects from './Projects';
 
 export default class Resume extends Component {
-  scrollToPortfolio = () => {
-    this.props.scrollTo('Porftolio')
-  }
+  
   render() {
     return (
       <div className='resume-page'>
@@ -19,8 +18,13 @@ export default class Resume extends Component {
           <About />
         </div>
         <div className='resume-page'>
-          <Work showPortfolio={this.props.switchView} />
-          <Education showPortfolio={this.props.switchView} />
+          <div className='sec-half'>
+            <Work showPortfolio={this.props.switchView} />
+          </div>
+          <div className='sec-half'>
+            <Projects showPortfolio={this.props.switchView} />
+            <Education showPortfolio={this.props.switchView} />
+          </div>
         </div>
       </div>
     )

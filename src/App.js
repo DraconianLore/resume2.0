@@ -9,12 +9,16 @@ class App extends Component {
     super(props);
     this.state = {
       mobile: false,
-      portfolio: false
+      portfolio: false,
+      portfolioItem: 0
     }
   }
 
-  switchView = () => {
-    this.setState({portfolio: !this.state.portfolio})
+  switchView = (item) => {
+    this.setState({
+      portfolio: !this.state.portfolio,
+      portfolioItem: item || 0
+    })
   }
 
   componentDidMount() {
@@ -28,7 +32,7 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar isMobile={this.state.mobile} switchView={this.switchView} />
-        {this.state.portfolio ?  <Portfolio /> : <Resume switchView={this.switchView} />}
+        {this.state.portfolio ?  <Portfolio portfolioItem={this.state.portfolioItem}/> : <Resume switchView={this.switchView} />}
       </div>
     );
   }

@@ -14,15 +14,15 @@ export default class Education extends Component {
           A full-time immersive full-stack web development program covering topics such as Javascript, jQuery, HTML, CSS, SASS, 
           MongoDB, PostgreSQL, React, NodeJs, Ruby, and Ruby on Rails.
           </p>
-        <ul className='res-description' onClick={this.props.showPortfolio}>
+        <ul className='res-description'>
           <h4 className='sub-sub-heading mini-heading'>Projects</h4>
           {/* eslint-disable-next-line */}
           <a href='#' alt='View portfolio'>
-          <li><strong>Κοῖος</strong> - <em>An immersive mobile game made with React native and Ruby-on-Rails</em></li>
-          <li><strong>Jungle</strong> - <em>An eCommerce application made with Ruby-on-Rails</em></li>
-          <li><strong>ChattyApp</strong> - <em>An anonymous chatroom made with React and NodeJs</em></li>
-          <li><strong>Conligo</strong> - <em>A 'smart' todo list made with NodeJs and Express</em></li>
-          <li><strong>Tweeter</strong> - <em>A twitter clone SPA made with NodeJs and Express</em></li>
+          <li onClick={() =>this.props.showPortfolio(3)}><strong>Κοῖος</strong> - <em>An immersive mobile game made with React native and Ruby-on-Rails</em></li>
+          <li onClick={() =>this.props.showPortfolio(4)}><strong>Jungle</strong> - <em>An eCommerce application made with Ruby-on-Rails</em></li>
+          <li onClick={() =>this.props.showPortfolio(5)}><strong>ChattyApp</strong> - <em>An anonymous chatroom made with React and NodeJs</em></li>
+          <li onClick={() =>this.props.showPortfolio(6)}><strong>Conligo</strong> - <em>A 'smart' todo list made with NodeJs and Express</em></li>
+          <li onClick={() =>this.props.showPortfolio(7)}><strong>Tweeter</strong> - <em>A twitter clone SPA made with NodeJs and Express</em></li>
           </a>
         </ul>
         <p>

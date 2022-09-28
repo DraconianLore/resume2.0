@@ -27,19 +27,6 @@ export default class Work extends Component {
           <li>Contract development work using NodeJs and React to build a mobile PWA social media application</li>  
         </ul>
         
-        <h4 className='sub-heading'>Completed Projects</h4>
-        <ul className='res-description' onClick={this.props.showPortfolio}>
-          {/* eslint-disable-next-line */}
-          <a href='#' alt='View portfolio'>
-            <li><strong>DM Player Tracker</strong> - <em>A Dungeons & Dragons tool made with Ruby-on-Rails and React</em></li>
-            <li><strong>Κοῖος</strong> - <em>An immersive mobile game made with React native and Ruby-on-Rails</em></li>
-            <li><strong>ChattyApp</strong> - <em>An anonymous chatroom made with React and NodeJs</em></li>
-            <li><strong>Conligo</strong> - <em>A 'smart' todo list made with NodeJs and Express</em></li>
-          </a>
-        </ul>
-        {/* eslint-disable-next-line */}
-        <h4 className='sub-sub-heading portfolio-link'><a href="#" alt='view protfolio' onClick={this.props.showPortfolio}>View My Portfolio</a></h4>
-
         <h4 className='sub-heading'>Finalist<span className="right-side">September 13-15, 2019</span></h4>
         <h4 className='sub-sub-heading'><a href="https://vanhacks.com/">Vanhacks 2019</a><span className="right-side">Vancouver, BC, Canada</span></h4>
         <ul className='res-description'>
