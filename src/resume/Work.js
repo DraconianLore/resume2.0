@@ -8,6 +8,9 @@ export default class Work extends Component {
         <h1 className='heading'>Relevant Experience</h1>
         <hr className='exp-hr' />
 
+        <h4 className='sub-heading'>Upskilling/Personal Projects<span className="right-side">July 2021 - Current</span></h4>
+        <p><em>Working on improving my knowledge of algorithms and data structures, practicing online code tests in various languages, and working on personal/portfolio projects while waiting for my US work authorization.</em></p>
+
         <h4 className='sub-heading'>Software Engineer<span className="right-side">Feb 2020 - June 2021</span></h4>
         <h4 className='sub-sub-heading'>Lighthouse Labs<span className="right-side">Vancouver, Canada</span></h4>
         <ul className='res-description'>

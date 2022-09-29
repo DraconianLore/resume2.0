@@ -11,6 +11,11 @@
   justify-content: flex-start;
   width: 50%;
 }
+@media screen and (max-width: 769px) {
+  .sec-half {
+    width: 100%;;
+  }
+}
 
 .section {
   height: 20vw;
@@ -27,13 +32,13 @@
   box-shadow: 5px 5px  rgba(34,56,67,0.6);
   padding: 0.5em 1em 0.5em 1em;
 }
+
 .wider {
   width: 45vw;
   height: initial;
   overflow: hidden;
   overflow-y: scroll;
   scrollbar-width: none;
-
 
 }
 ::-webkit-scrollbar {
@@ -54,7 +59,7 @@
   padding: 0;
 }
 .section h3 {
-  margin: 10px;
+  margin: 8px;
 }
 .contact-cent {
   text-align: center;
