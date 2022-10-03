@@ -11,19 +11,6 @@ export default class Current extends Component {
         
         <hr className='project-hr' />
         <h4>
-          <a className='port-link' href='https://github.com/DraconianLore/GameLibrary' target='_blank' rel="noopener noreferrer">GameMatch</a>
-         </h4>
-        <p>
-        <em>A multiplayer game matcher for steam friends</em>
-        </p>
-        <p className='port-current'>
-        An app where you can select steam friends and see which multiplayer games you all have, or see items on your wishlist that all friends but you have. 
-        You can also see a quick overview of steam games you have that are multiplayer, Co-op, PvP, or on sale.
-        </p>
-        <p><a href="https://gamematch.stevenwing.dev" target="_blank" rel="noopener noreferrer" >See Demo (MVP)</a></p>
-
-        <hr className='project-hr' />
-        <h4>
           <a className='port-link' href='https://github.com/DraconianLore/rune_scribe' target='_blank' rel="noopener noreferrer">Rune Scribe Familiar</a>
          </h4>
         <p>

@@ -9,6 +9,7 @@ import Current from './projects/Current';
 import DonateIT from './projects/DonateIT';
 import QuoteChat from './projects/QuoteChat';
 import DmPlayerTracker from './projects/DmPlayerTracker';
+import GameMatch from './projects/GameMatch';
 
 export default class Portfolio extends Component {
 
@@ -25,6 +26,7 @@ export default class Portfolio extends Component {
     return (
       <div className='container' >
         <Slider {...settings}>
+          <GameMatch />
           <DmPlayerTracker />
           <QuoteChat />
           <DonateIT />
