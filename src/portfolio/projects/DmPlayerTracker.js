@@ -12,8 +12,8 @@ export default class DmPlayerTracker extends Component {
         <img src="images/dmplayertracker.gif" alt='DM Player Tracker' />
         </a>
 
-        <section className='port-details'>
-          <a href="https://dmpt.stevenwing.dev" target="_blank" rel="noopener noreferrer" ><p>View live demo here</p></a>
+        <section className='port-details' id='dmpt'>
+          <a href="https://dmpt.stevenwing.dev" target="_blank" rel="noopener noreferrer" className='demo-link' ><p>View live demo here</p></a>
         <p>
         A tool for Dungeon masters to track their players and NPCs in Dungeons and Dragons
         </p>

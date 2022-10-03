@@ -15,8 +15,8 @@ export default class DmPlayerTracker extends Component {
         </video>
         </a>
 
-        <section className='port-details'>
-          <a href="https://gamamatch.stevenwing.dev" target="_blank" rel="noopener noreferrer" ><p><u>View live demo here</u></p></a>
+        <section className='port-details' id='gamematch'>
+          <a href="https://gamematch.stevenwing.dev" target="_blank" rel="noopener noreferrer" className='demo-link'><p>View live demo here</p></a>
         <p>
         An app where you can log in with steam and see which multiplayer games a group of friends all have.
         </p>

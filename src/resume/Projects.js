@@ -21,12 +21,12 @@ export default class Projects extends Component {
         <ul className='res-description' onClick={() => this.props.showPortfolio(9)}>
           {/* eslint-disable-next-line */}
           <a href='#' alt='View portfolio'>
-            <li><strong>Runescribe Familiar</strong> - <em>A tool for Dungeons and Dragons players using the Rune Scribe class</em></li>
+            <li><strong>Runescribe Familiar</strong> - <em>A tool for D&D players using the Rune Scribe class</em></li>
             <li><strong>DMPT - Player Client</strong> - <em>A player client for the Dungeon Master Player Tracker</em></li>
           </a>
         </ul>
         {/* eslint-disable-next-line */}
-        <h4 className='sub-sub-heading portfolio-link'><a href="#" alt='view protfolio' onClick={this.props.showPortfolio}>View My Portfolio</a></h4>
+        <h4 className='sub-sub-heading portfolio-link'><a href="#" alt='view protfolio' onClick={() => this.props.showPortfolio(0)}>View My Portfolio</a></h4>
       </div>
     )
   }
