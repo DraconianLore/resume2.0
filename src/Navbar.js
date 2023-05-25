@@ -9,7 +9,7 @@ export default class Navbar extends Component {
         <button className='navButtons' onClick={() => this.props.switchView(0)} >
           Résumé
         </button>
-        <button className='navButtons' onClick={() => this.props.switchView(0)} >
+        <button className='navButtons' onClick={(e) => window.location.href="https://projects.stevenwing.dev"}>
           Portfolio
         </button>
       </div>
